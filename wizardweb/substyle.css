@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Kanit";
+    src: url("Kanit-Regular.ttf");
+  }
+  body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+    line-height: 175%;
+    margin: 0 15% 0;
+    background: #778591;
+  }
+  header {
+    margin-top: 2em;
+    padding: 1em 1em 2em 1em;
+    text-align: center;
+    
+  }
+  section {
+    max-width: 1250px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+        text-align: center;
+        font-family: Kanit;
+        font-weight: bold;
+        color: #ddd1be;
+        text-shadow: .1em .1em .2em gray;
+  }
+  h2 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    text-align: center;
+    color: #634516;
+  }
+  h3 {
+    font-size: 1.25em;
+    border-top: solid red;
+    text-align: center;
+    color:  black
+  }
+  
+  footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    text-align: center;
+    }
+    
+nav li {
+ display: inline-block;
+margin-right: 20px;}
+ nav{
+background-color: #252424;
+border-radius: 5px;
+}
+a {
+ text-decoration: none;
+ }
+a:link {             
+color: #ddd1be;
+font-family: Kanit;
+font-size: 1.25em;
+}
+a:visited {
+    color: #b1afac;
+    font-family: Kanit;
+    font-size: 1.25em;
+}
+a:hover {
+                    
+    color: #916929;
+    background-color: white;
+    font-family: Kanit;
+    font-size: 1.25em;
+}
+a:active {           
+    color: #ff9f06;
+    font-family: Kanit;
+    font-size: 1.25em;
+}
+
+td{border:ridge 3px #3E4958; padding: 5px; size:"2"; font-family:"Kanit"; color:black; text-align:center; font-weight: bold;} 
+th {border:ridge 3px #3E4958; padding: 5px; size:"2"; font-family:"Kanit"; color:black; text-align:center; font-weight: bold; font-size: large;}
+table { border: outset 6px #252424; background-color:#E2C28F;}
+ol, ul { 
+    list-style-type: none;
+}
+fieldset{
+    text-align: left;
+}
